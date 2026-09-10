@@ -18,12 +18,12 @@
     "model-context-protocol"
   ],
   "homepage": "https://munimtech.com/computer-use",
-  "bugs": "https://github.com/munimtechnologies/computer-use/issues",
+  "bugs": "https://github.com/munimtechnologies/munim-computer-use/issues",
   "license": "Apache-2.0",
   "author": "Munim, Inc. (Munim Technologies)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/munimtechnologies/computer-use.git"
+    "url": "https://github.com/munimtechnologies/munim-computer-use.git"
   },
   "bin": {
     "computer-use": "bin/computer-use.js"

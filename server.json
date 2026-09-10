@@ -4,7 +4,7 @@
   "title": "Computer Use",
   "description": "Accessibility-first desktop control for any agent: background input, agent pointer, zoom, Chrome.",
   "repository": {
-    "url": "https://github.com/munimtechnologies/computer-use",
+    "url": "https://github.com/munimtechnologies/munim-computer-use",
     "source": "github"
   },
   "websiteUrl": "https://munimtech.com/computer-use",

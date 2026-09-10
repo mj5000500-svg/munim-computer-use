@@ -14,7 +14,7 @@ const path = require("node:path");
 const { spawn, spawnSync } = require("node:child_process");
 
 const pkg = require("../package.json");
-const REPO = "munimtechnologies/computer-use";
+const REPO = "munimtechnologies/munim-computer-use";
 const VERSION = pkg.version;
 
 function assetFor(platform, arch) {

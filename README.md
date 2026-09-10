@@ -1,18 +1,24 @@
 <!-- Banner Image -->
 
 <p align="center">
-  <a href="https://github.com/munimtechnologies/computer-use">
+  <a href="https://github.com/munimtechnologies/munim-computer-use">
     <img alt="Munim Technologies Computer Use" height="128" src="./.github/resources/banner.png?v=1">
-    <h1 align="center">Computer Use</h1>
+    <h1 align="center">munim-computer-use</h1>
   </a>
 </p>
 
 <p align="center">
-  <a aria-label="Latest release" href="https://github.com/munimtechnologies/computer-use/releases/latest" target="_blank">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/munimtechnologies/computer-use?style=flat-square&label=Version&labelColor=000000&color=0066CC" />
+  <a aria-label="Latest release" href="https://github.com/munimtechnologies/munim-computer-use/releases/latest" target="_blank">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/munimtechnologies/munim-computer-use?style=flat-square&label=Version&labelColor=000000&color=0066CC" />
   </a>
-  <a aria-label="License" href="https://github.com/munimtechnologies/computer-use/blob/main/LICENSE" target="_blank">
+  <a aria-label="License" href="https://github.com/munimtechnologies/munim-computer-use/blob/main/LICENSE" target="_blank">
     <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-success.svg?style=flat-square&color=33CC12" />
+  </a>
+  <a aria-label="package downloads" href="https://www.npmtrends.com/munim-computer-use" target="_blank">
+    <img alt="Downloads" src="https://img.shields.io/npm/dm/munim-computer-use.svg?style=flat-square&labelColor=gray&color=33CC12&label=Downloads" />
+  </a>
+  <a aria-label="total package downloads" href="https://www.npmjs.com/package/munim-computer-use" target="_blank">
+    <img alt="Total Downloads" src="https://img.shields.io/npm/dt/munim-computer-use.svg?style=flat-square&labelColor=gray&color=0066CC&label=Total%20Downloads" />
   </a>
   <a aria-label="MCP" href="https://modelcontextprotocol.io" target="_blank">
     <img alt="MCP stdio server" src="https://img.shields.io/badge/MCP-stdio%20server-8A2BE2?style=flat-square" />
@@ -21,11 +27,11 @@
 </p>
 
 <p align="center">
-  <a aria-label="download" href="https://github.com/munimtechnologies/computer-use/releases/latest"><b>Download</b></a>
+  <a aria-label="download" href="https://github.com/munimtechnologies/munim-computer-use/releases/latest"><b>Download</b></a>
 &ensp;•&ensp;
-  <a aria-label="documentation" href="https://github.com/munimtechnologies/computer-use#readme">Read the Documentation</a>
+  <a aria-label="documentation" href="https://github.com/munimtechnologies/munim-computer-use#readme">Read the Documentation</a>
 &ensp;•&ensp;
-  <a aria-label="report issues" href="https://github.com/munimtechnologies/computer-use/issues">Report Issues</a>
+  <a aria-label="report issues" href="https://github.com/munimtechnologies/munim-computer-use/issues">Report Issues</a>
 &ensp;•&ensp;
   <a aria-label="website" href="https://munimtech.com/computer-use">munimtech.com/computer-use</a>
 </p>
@@ -65,7 +71,7 @@
 
 ## Quick start
 
-1. Download the latest binary for your platform from [Releases](https://github.com/munimtechnologies/computer-use/releases/latest) (`computer-use-macos-universal.zip`, `computer-use-windows-x64.zip`) or [build from source](#build-from-source).
+1. Download the latest binary for your platform from [Releases](https://github.com/munimtechnologies/munim-computer-use/releases/latest) (`computer-use-macos-universal.zip`, `computer-use-windows-x64.zip`) or [build from source](#build-from-source).
 2. Put it somewhere on your `PATH` (`/usr/local/bin/computer-use`, or `%LOCALAPPDATA%\Programs\computer-use\computer-use.exe`).
 3. macOS only: run `computer-use request-permissions` once to be prompted for Accessibility and Screen Recording.
 4. Register it with your agent:
