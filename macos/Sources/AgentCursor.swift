@@ -211,7 +211,7 @@ final class AgentCursor {
         if listenerFD >= 0 { return }
 
         guard let appURL = OverlayBundle.ensureApp() else {
-            fputs("computer-use: agent cursor: could not materialise MunimAgentCursor.app\n", stderr)
+            fputs("munim-computer-use: agent cursor: could not materialise MunimAgentCursor.app\n", stderr)
             pending.removeAll()
             return
         }
@@ -223,7 +223,7 @@ final class AgentCursor {
         startupGeneration &+= 1
         let generation = startupGeneration
         guard startListening(at: path) else {
-            fputs("computer-use: agent cursor: could not listen on \(path)\n", stderr)
+            fputs("munim-computer-use: agent cursor: could not listen on \(path)\n", stderr)
             pending.removeAll()
             return
         }
@@ -249,7 +249,7 @@ final class AgentCursor {
             guard let self else { return }
             if let error {
                 fputs(
-                    "computer-use: agent cursor: NSWorkspace open failed (\(error.localizedDescription)); falling back to Process\n",
+                    "munim-computer-use: agent cursor: NSWorkspace open failed (\(error.localizedDescription)); falling back to Process\n",
                     stderr
                 )
                 self.lock.lock()
@@ -266,7 +266,7 @@ final class AgentCursor {
             if self.connection == nil, self.process?.isRunning != true,
                self.socketPath == path, self.startupGeneration == generation
             {
-                fputs("computer-use: agent cursor: NSWorkspace timed out; falling back to Process\n", stderr)
+                fputs("munim-computer-use: agent cursor: NSWorkspace timed out; falling back to Process\n", stderr)
                 self.launchViaProcess(executable: executable, socketPath: path)
             }
         }
@@ -278,7 +278,7 @@ final class AgentCursor {
             self.lock.lock()
             defer { self.lock.unlock() }
             if self.connection == nil, self.socketPath == path, self.startupGeneration == generation {
-                fputs("computer-use: agent cursor: overlay never connected; resetting\n", stderr)
+                fputs("munim-computer-use: agent cursor: overlay never connected; resetting\n", stderr)
                 self.tearDownLocked()
             }
         }
@@ -297,7 +297,7 @@ final class AgentCursor {
             try child.run()
             process = child
         } catch {
-            fputs("computer-use: agent cursor: Process launch failed (\(error.localizedDescription))\n", stderr)
+            fputs("munim-computer-use: agent cursor: Process launch failed (\(error.localizedDescription))\n", stderr)
             tearDownLocked()
         }
     }
@@ -429,7 +429,7 @@ private enum OverlayBundle {
         let fm = FileManager.default
         let selfURL = URL(fileURLWithPath: CommandLine.arguments[0]).resolvingSymlinksInPath()
 
-        // Staged artifact: `…/computer-use/MunimAgentCursor.app` beside the binary.
+        // Staged artifact: `…/munim-computer-use/MunimAgentCursor.app` beside the binary.
         let sibling = selfURL.deletingLastPathComponent().appendingPathComponent(overlayAppName)
         if isValidApp(sibling) {
             do {

@@ -1849,8 +1849,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "computer-use-native"
-version = "0.1.0"
+name = "munim-computer-use-native"
+version = "0.2.0"
 dependencies = [
  "atspi",
  "base64",

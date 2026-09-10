@@ -62,7 +62,7 @@ fn main() {
     // the process is a relay, not a server.
     if std::env::args().nth(1).as_deref() == Some("native-host") {
         if let Err(error) = browser::run_native_host() {
-            eprintln!("computer-use: native host stopped: {error}");
+            eprintln!("munim-computer-use: native host stopped: {error}");
         }
         return;
     }
@@ -76,11 +76,11 @@ fn main() {
             }
         }
         let Some(root) = root else {
-            eprintln!("computer-use: computer-history requires --root <dir>");
+            eprintln!("munim-computer-use: computer-history requires --root <dir>");
             std::process::exit(2);
         };
         if let Err(error) = history::run(root) {
-            eprintln!("computer-use: computer-history stopped: {error}");
+            eprintln!("munim-computer-use: computer-history stopped: {error}");
             std::process::exit(1);
         }
         return;
@@ -96,7 +96,7 @@ fn main() {
     let mut desktop = match platform::backend() {
         Ok(backend) => Some(backend),
         Err(error) => {
-            eprintln!("computer-use: desktop backend unavailable: {error}");
+            eprintln!("munim-computer-use: desktop backend unavailable: {error}");
             None
         }
     };
@@ -110,7 +110,7 @@ fn main() {
         let line = match line {
             Ok(line) => line,
             Err(error) => {
-                eprintln!("computer-use: stdin closed: {error}");
+                eprintln!("munim-computer-use: stdin closed: {error}");
                 break;
             }
         };
@@ -122,7 +122,7 @@ fn main() {
         let request: Value = match serde_json::from_str(trimmed) {
             Ok(value) => value,
             Err(error) => {
-                eprintln!("computer-use: malformed JSON: {error}");
+                eprintln!("munim-computer-use: malformed JSON: {error}");
                 let response = json!({
                     "jsonrpc": "2.0",
                     "id": null,

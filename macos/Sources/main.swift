@@ -7,7 +7,7 @@ import ScreenCaptureKit
 // Swift 6: Result's Failure must be Error. Keep stringly failures for MCP replies.
 extension String: @retroactive Error {}
 
-// computer-use — a macOS computer-use MCP server built on the Accessibility API.
+// munim-computer-use — a macOS munim-computer-use MCP server built on the Accessibility API.
 //
 // Design notes:
 //  * Speaks newline-delimited JSON-RPC over stdio (MCP stdio transport).
@@ -2721,7 +2721,7 @@ if CommandLine.arguments.contains("computer-history") {
     if let flag = args.firstIndex(of: "--root"), args.index(after: flag) < args.endIndex {
         ComputerHistoryDaemon.run(root: args[args.index(after: flag)])
     }
-    fputs("computer-use: computer-history requires --root <dir>\n", stderr)
+    fputs("munim-computer-use: computer-history requires --root <dir>\n", stderr)
     exit(2)
 }
 // Ask macOS for the permissions Computer Use needs, from inside the app bundle
@@ -2759,7 +2759,7 @@ if CommandLine.arguments.contains("cursor-overlay") {
     if let flag = args.firstIndex(of: "--socket"), args.index(after: flag) < args.endIndex {
         AgentCursorOverlay.run(socketPath: args[args.index(after: flag)])
     }
-    fputs("computer-use: cursor-overlay requires --socket <path>\n", stderr)
+    fputs("munim-computer-use: cursor-overlay requires --socket <path>\n", stderr)
     exit(2)
 }
 

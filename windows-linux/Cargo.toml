@@ -1,6 +1,6 @@
 [package]
-name = "computer-use-native"
-version = "0.1.0"
+name = "munim-computer-use-native"
+version = "0.2.0"
 edition = "2024"
 license = "Apache-2.0"
 publish = false
@@ -9,7 +9,7 @@ publish = false
 # API. This crate covers the platforms Swift cannot reach, and ships the same
 # binary name so the server's resolver treats all three identically.
 [[bin]]
-name = "computer-use"
+name = "munim-computer-use"
 path = "src/main.rs"
 
 [dependencies]

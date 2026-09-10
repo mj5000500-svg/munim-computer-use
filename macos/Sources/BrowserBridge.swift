@@ -8,7 +8,7 @@ import Darwin
 // over that process's stdio. The MCP server is a different process with its own
 // lifetime, so the two are joined by a Unix socket:
 //
-//     Chrome  ──stdio(length-prefixed)──▶  `computer-use native-host`
+//     Chrome  ──stdio(length-prefixed)──▶  `munim-computer-use native-host`
 //                                              │ unix socket
 //                                              ▼
 //                                        MCP server (this process)
@@ -20,7 +20,7 @@ let bridgeSocketPath: String = {
     // Prefer Application Support; never fall back to world-writable /tmp (another
     // local user could claim that path). NSTemporaryDirectory() is already per-user.
     let shortFallback = URL(fileURLWithPath: NSTemporaryDirectory())
-        .appendingPathComponent("computer-use-bridge.sock").path
+        .appendingPathComponent("munim-computer-use-bridge.sock").path
     let preferred = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
         ?? URL(fileURLWithPath: NSTemporaryDirectory())
     let dir = preferred.appendingPathComponent("computer-use", isDirectory: true)
@@ -92,7 +92,7 @@ enum NativeMessaging {
     static func write(_ handle: FileHandle, _ payload: Data) {
         guard payload.count <= maxPayloadBytes else {
             fputs(
-                "computer-use: native messaging payload exceeds \(maxPayloadBytes) bytes\n",
+                "munim-computer-use: native messaging payload exceeds \(maxPayloadBytes) bytes\n",
                 stderr
             )
             return
@@ -222,7 +222,7 @@ func bridgeSocketIsLive() -> Bool {
 
 // MARK: - Host mode
 
-/// `computer-use native-host` — relays between Chrome's stdio and the socket.
+/// `munim-computer-use native-host` — relays between Chrome's stdio and the socket.
 /// Chrome launches this; it is not the MCP server.
 enum NativeHost {
     static func run() -> Never {

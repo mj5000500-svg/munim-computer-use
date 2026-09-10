@@ -71,28 +71,28 @@
 
 ## Quick start
 
-1. Download the latest binary for your platform from [Releases](https://github.com/munimtechnologies/munim-computer-use/releases/latest) (`computer-use-macos-universal.zip`, `computer-use-windows-x64.zip`) or [build from source](#build-from-source).
-2. Put it somewhere on your `PATH` (`/usr/local/bin/computer-use`, or `%LOCALAPPDATA%\Programs\computer-use\computer-use.exe`).
-3. macOS only: run `computer-use request-permissions` once to be prompted for Accessibility and Screen Recording.
+1. Download the latest binary for your platform from [Releases](https://github.com/munimtechnologies/munim-computer-use/releases/latest) (`munim-computer-use-macos-universal.zip`, `munim-computer-use-windows-x64.zip`) or [build from source](#build-from-source).
+2. Put it somewhere on your `PATH` (`/usr/local/bin/munim-computer-use`, or `%LOCALAPPDATA%\Programs\munim-computer-use\munim-computer-use.exe`).
+3. macOS only: run `munim-computer-use request-permissions` once to be prompted for Accessibility and Screen Recording.
 4. Register it with your agent:
 
 ```sh
 # Claude Code — fastest: the npm launcher fetches the signed binary on first run
-claude mcp add computer-use -- npx -y munim-computer-use
+claude mcp add munim-computer-use -- npx -y munim-computer-use
 # or point at a downloaded binary
-claude mcp add computer-use -- /usr/local/bin/computer-use
+claude mcp add munim-computer-use -- /usr/local/bin/munim-computer-use
 ```
 
 ```toml
 # Codex — ~/.codex/config.toml
-[mcp_servers.computer-use]
+[mcp_servers.munim-computer-use]
 command = "npx"
 args = ["-y", "munim-computer-use"]
 ```
 
 ```json
 // Cursor — .cursor/mcp.json
-{ "mcpServers": { "computer-use": { "command": "npx", "args": ["-y", "munim-computer-use"] } } }
+{ "mcpServers": { "munim-computer-use": { "command": "npx", "args": ["-y", "munim-computer-use"] } } }
 ```
 
 Then ask: _"Open Safari, find the cheapest flight to Denver on Tuesday and put it in a note."_ The agent reads the UI with `get_app_state`, acts by element id, and verifies with `screenshot`.
@@ -144,8 +144,8 @@ Names, argument shapes and descriptions are identical on every platform; a model
 
 | Directory           | What                                                                   | Build                                                             |
 | ------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| `macos/`            | Swift server on the Accessibility API and ScreenCaptureKit (macOS 14+) | `swift build -c release` → `.build/release/computer-use`          |
-| `windows-linux/`    | Rust server: UI Automation on Windows, AT-SPI + X11 on Linux           | `cargo build --release` → `target/release/computer-use`           |
+| `macos/`            | Swift server on the Accessibility API and ScreenCaptureKit (macOS 14+) | `swift build -c release` → `.build/release/munim-computer-use`          |
+| `windows-linux/`    | Rust server: UI Automation on Windows, AT-SPI + X11 on Linux           | `cargo build --release` → `target/release/munim-computer-use`           |
 | `chrome-extension/` | Chrome extension + native messaging host for the `browser_*` tools     | Load unpacked; `sh install.sh` / `install.ps1` registers the host |
 
 ### Build from source

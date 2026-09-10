@@ -4,7 +4,7 @@ import Foundation
 
 /// Background Computer History recorder (Skysight-style).
 ///
-/// Invoked as `computer-use computer-history --root <dir>`.
+/// Invoked as `munim-computer-use computer-history --root <dir>`.
 /// Writes interaction events under `<root>/segments/` and status to
 /// `<root>/status.json`. Honors `<root>/control.json` for pause/filters.
 enum ComputerHistoryDaemon {
@@ -37,7 +37,7 @@ enum ComputerHistoryDaemon {
     }
 
     state.sessionStarted()
-    fputs("computer-use: computer-history daemon started root=\(root)\n", stderr)
+    fputs("munim-computer-use: computer-history daemon started root=\(root)\n", stderr)
     NSApp.run()
   }
 }

@@ -19,9 +19,9 @@ const VERSION = pkg.version;
 
 function assetFor(platform, arch) {
   if (platform === "darwin")
-    return { asset: "computer-use-macos-universal.zip", binary: "computer-use" };
+    return { asset: "munim-computer-use-macos-universal.zip", binary: "munim-computer-use" };
   if (platform === "win32" && arch === "x64")
-    return { asset: "computer-use-windows-x64.zip", binary: "computer-use.exe" };
+    return { asset: "munim-computer-use-windows-x64.zip", binary: "munim-computer-use.exe" };
   return null;
 }
 

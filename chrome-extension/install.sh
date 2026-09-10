@@ -16,19 +16,19 @@ LEGACY_HOST_NAME="com.munimtech.computer-use.desktop"
 
 here=$(cd "$(dirname "$0")" && pwd)
 # macOS builds the Swift package; Linux builds the Rust crate that also covers
-# Windows. Either way the binary is called computer-use.
+# Windows. Either way the binary is called munim-computer-use.
 case "$(uname -s)" in
   Darwin)
     for candidate in \
-      "$here/../macos/.build/apple/Products/Release/computer-use" \
-      "$here/../macos/.build/release/computer-use"; do
+      "$here/../macos/.build/apple/Products/Release/munim-computer-use" \
+      "$here/../macos/.build/release/munim-computer-use"; do
       if [ -x "$candidate" ]; then
         default_binary="$candidate"
         break
       fi
     done
     ;;
-  *)      default_binary="$here/../windows-linux/target/release/computer-use" ;;
+  *)      default_binary="$here/../windows-linux/target/release/munim-computer-use" ;;
 esac
 binary="${COMPUTER_USE_PATH:-$default_binary}"
 if [ ! -x "$binary" ]; then
@@ -38,8 +38,8 @@ if [ ! -x "$binary" ]; then
 fi
 
 case "$(uname -s)" in
-  Darwin) support="$HOME/Library/Application Support/computer-use" ;;
-  *)      support="${XDG_DATA_HOME:-$HOME/.local/share}/computer-use" ;;
+  Darwin) support="$HOME/Library/Application Support/munim-computer-use" ;;
+  *)      support="${XDG_DATA_HOME:-$HOME/.local/share}/munim-computer-use" ;;
 esac
 mkdir -p "$support"
 wrapper="$support/native-host"

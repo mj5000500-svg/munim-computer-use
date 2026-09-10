@@ -196,7 +196,7 @@ pub fn backend() -> Result<Box<dyn Desktop>> {
     #[cfg(not(any(windows, target_os = "linux")))]
     {
         Err(DesktopError::new(
-            "computer-use-native supports Windows and Linux; macOS uses the Swift computer-use server",
+            "munim-computer-use-native supports Windows and Linux; macOS uses the Swift munim-computer-use server",
         ))
     }
 }
