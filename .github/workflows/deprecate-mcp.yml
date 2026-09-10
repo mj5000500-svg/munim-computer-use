@@ -47,9 +47,11 @@ jobs:
           ALL: ${{ inputs.all_versions }}
         run: |
           set -eu
+          # mcp-publisher asks "Continue? [y/N]" and reads it from stdin, which
+          # is closed in Actions; answer it so the run is non-interactive.
           if [ "$ALL" = "true" ]; then
-            ./mcp-publisher status --status "$STATUS" --message "$MESSAGE" --all-versions "$SERVER"
+            yes | ./mcp-publisher status --status "$STATUS" --message "$MESSAGE" --all-versions "$SERVER"
           else
             [ -n "$VERSION" ] || { echo "version is required unless all-versions is set" >&2; exit 1; }
-            ./mcp-publisher status --status "$STATUS" --message "$MESSAGE" "$SERVER" "$VERSION"
+            yes | ./mcp-publisher status --status "$STATUS" --message "$MESSAGE" "$SERVER" "$VERSION"
           fi
