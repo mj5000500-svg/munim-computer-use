@@ -1135,6 +1135,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "munim-computer-use-native"
+version = "0.3.0"
+dependencies = [
+ "atspi",
+ "base64",
+ "futures-lite",
+ "image",
+ "interprocess",
+ "libc",
+ "serde",
+ "serde_json",
+ "uiautomation",
+ "windows",
+ "x11rb",
+ "xcap",
+ "zbus",
+]
+
+[[package]]
 name = "nom"
 version = "7.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1846,25 +1865,6 @@ dependencies = [
  "pkg-config",
  "toml",
  "version-compare",
-]
-
-[[package]]
-name = "munim-computer-use-native"
-version = "0.2.0"
-dependencies = [
- "atspi",
- "base64",
- "futures-lite",
- "image",
- "interprocess",
- "libc",
- "serde",
- "serde_json",
- "uiautomation",
- "windows",
- "x11rb",
- "xcap",
- "zbus",
 ]
 
 [[package]]
