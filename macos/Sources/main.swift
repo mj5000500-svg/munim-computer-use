@@ -2932,7 +2932,7 @@ while let line = readLine(strippingNewline: true) {
         respond(id: id ?? NSNull(), result: [
             "protocolVersion": "2024-11-05",
             "capabilities": ["tools": ["listChanged": false]],
-            "serverInfo": ["name": "mt-desktop", "version": "0.2.0"],
+            "serverInfo": ["name": "mt-desktop", "version": "0.3.0"],
         ])
 
     case "tools/list":
