@@ -148,6 +148,7 @@ Names, argument shapes and descriptions are identical on every platform; a model
 | `macos/`            | Swift server on the Accessibility API and ScreenCaptureKit (macOS 14+) | `swift build -c release` → `.build/release/munim-computer-use`          |
 | `windows-linux/`    | Rust server: UI Automation on Windows, AT-SPI + X11 on Linux           | `cargo build --release` → `target/release/munim-computer-use`           |
 | `chrome-extension/` | Chrome extension + native messaging host for the `browser_*` tools     | Load unpacked; `sh install.sh` / `install.ps1` registers the host; `node background.test.mjs` |
+| `Dockerfile`        | Headless Linux build of the Rust server for registry introspection (Glama and similar); no desktop control inside a container | `docker build -t munim-computer-use .` |
 
 ### Build from source
 

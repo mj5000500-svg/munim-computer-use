@@ -228,7 +228,9 @@ impl LinuxDesktop {
 
         // Best-effort restore/raise before the EWMH request — harmless if the
         // window is already mapped and on top.
-        let _ = connection.map_window(window_id).and_then(|cookie| cookie.check());
+        if let Ok(cookie) = connection.map_window(window_id) {
+            let _ = cookie.check();
+        }
         connection
             .configure_window(
                 window_id,
@@ -974,8 +976,8 @@ impl Desktop for LinuxDesktop {
         // or the name is simply absent from the bus.
         match self.applications() {
             Ok(applications) => match match_application(&applications, app) {
-                Ok((_, _, pid)) if pid != 0 => Ok(pid),
                 Ok((_, _, 0)) => apps::resolve_pid(app),
+                Ok((_, _, pid)) => Ok(pid),
                 Err(error) if error.0.contains("matches several apps") => Err(error),
                 Err(_) => apps::resolve_pid(app),
             },
