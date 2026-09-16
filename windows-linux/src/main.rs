@@ -25,7 +25,7 @@ use platform::{Desktop, DesktopError, Point, ScrollDirection};
 
 const PROTOCOL_VERSION: &str = "2024-11-05";
 const SERVER_NAME: &str = "mt-desktop";
-const SERVER_VERSION: &str = "0.3.0";
+const SERVER_VERSION: &str = "0.3.1";
 
 /// Keeps the agent pointer up for the duration of a `tools/call`, then
 /// schedules a fade once Computer Use tools stop for the task.
